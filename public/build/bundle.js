@@ -4926,7 +4926,6 @@ var app = (function () {
     	let p;
     	let t1;
     	let a;
-    	let nobr;
     	let t3;
     	let current;
 
@@ -4943,11 +4942,9 @@ var app = (function () {
     			p = element("p");
     			t1 = text("Source: ");
     			a = element("a");
-    			nobr = element("nobr");
-    			nobr.textContent = "https://github.com/nevrome/covid19germany";
+    			a.textContent = "https://github.com/nevrome/covid19germany";
     			t3 = text(" (30.12.2020)");
-    			add_location(nobr, file$2, 18, 26, 533);
-    			attr_dev(a, "href", "#");
+    			attr_dev(a, "href", "https://github.com/nevrome/covid19germany");
     			add_location(a, file$2, 18, 14, 521);
     			attr_dev(p, "class", "svelte-64ava6");
     			add_location(p, file$2, 18, 3, 510);
@@ -4961,7 +4958,6 @@ var app = (function () {
     			append_dev(div, p);
     			append_dev(p, t1);
     			append_dev(p, a);
-    			append_dev(a, nobr);
     			append_dev(p, t3);
     			current = true;
     		},
