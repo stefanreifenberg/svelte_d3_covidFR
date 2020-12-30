@@ -4940,12 +4940,12 @@ var app = (function () {
     			create_component(linechartcovid.$$.fragment);
     			t0 = space();
     			p = element("p");
-    			t1 = text("Source: ");
+    			t1 = text("Data source: ");
     			a = element("a");
     			a.textContent = "https://github.com/nevrome/covid19germany";
     			t3 = text(" (30.12.2020)");
     			attr_dev(a, "href", "https://github.com/nevrome/covid19germany");
-    			add_location(a, file$2, 18, 14, 521);
+    			add_location(a, file$2, 18, 19, 526);
     			attr_dev(p, "class", "svelte-64ava6");
     			add_location(p, file$2, 18, 3, 510);
     			attr_dev(div, "class", "chart svelte-64ava6");
