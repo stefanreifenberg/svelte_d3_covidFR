@@ -9,21 +9,27 @@
 
 </script>
 
-<h2>Daily confirmed Covid Cases Freiburg</h2>
+<h1>Covid-19 development in Freiburg im Breisgau</h1>
+<h2>Showing confirmed <span style="color:#6930c3">ill</span>, <span style="color:#02c39a">recovered</span> and <span style="color:#e56b6f">dead</span> cases</h2>
 
 <main>	
 	{#if lineChartData}
 		<div class='chart'>			
 			<LineChartCovid data={lineChartData} />
-			<p>Source&nbsp;: covid19germany R package</p>
+			<p>Source: <a href="#"><nobr>https://github.com/nevrome/covid19germany</nobr></a></p>
 		</div>
 	{/if}
 	
 </main>
 
 <style>
-	h2 {
+	h1 {
 		font: 2.5rem 'Alata', sans-serif;
+		text-align: center;
+		margin: 1rem 0;
+	}
+	h2 {
+		font: 2rem 'Alata', sans-serif;
 		text-align: center;
 		margin: 1rem 0;
 	}

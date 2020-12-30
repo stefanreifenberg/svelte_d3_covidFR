@@ -55,7 +55,7 @@
 			
 			<path
 				d={lineGenerator_dead(data)}
-				stroke='red'
+				stroke='#e56b6f'
 				stroke-width={2}
 				stroke-linecap='round'
 				fill='none'
@@ -64,7 +64,7 @@
 
 			<path
 				d={lineGenerator_recovered(data)}
-				stroke='green'
+				stroke='#02c39a'
 				stroke-width={1.8}
 				stroke-linecap='round'
 				fill='none'
@@ -73,7 +73,7 @@
 
 			<path
 				d={lineGenerator_ill(data)}
-				stroke='rebeccapurple'
+				stroke='#6930c3'
 				stroke-width={2}
 				stroke-linecap='round'
 				fill='none'
