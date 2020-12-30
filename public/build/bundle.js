@@ -4927,6 +4927,7 @@ var app = (function () {
     	let t1;
     	let a;
     	let nobr;
+    	let t3;
     	let current;
 
     	linechartcovid = new LineChartCovid({
@@ -4944,6 +4945,7 @@ var app = (function () {
     			a = element("a");
     			nobr = element("nobr");
     			nobr.textContent = "https://github.com/nevrome/covid19germany";
+    			t3 = text(" (30.12.2020)");
     			add_location(nobr, file$2, 18, 26, 533);
     			attr_dev(a, "href", "#");
     			add_location(a, file$2, 18, 14, 521);
@@ -4960,6 +4962,7 @@ var app = (function () {
     			append_dev(p, t1);
     			append_dev(p, a);
     			append_dev(a, nobr);
+    			append_dev(p, t3);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
