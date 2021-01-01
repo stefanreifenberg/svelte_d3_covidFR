@@ -21,8 +21,7 @@ jobs:
         with:
           r-version: 'release'
       - name: install packages
-        run: |
-          install.packages('remotes')          
+        run: |                  
           install.packages('dplyr')
           install.packages('covid19germany')
         shell: Rscript {0}        
