@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Update Data
 
 # Controls when the action will run. 
 on:
@@ -28,7 +28,7 @@ jobs:
         shell: Rscript {0}        
       - name: "Download data"
         run: |
-          source('scripts/job.R')
+          source('R/job.R')
         shell: Rscript {0}
       - name: Commit files
         run: |
