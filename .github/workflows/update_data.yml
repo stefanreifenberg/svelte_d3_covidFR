@@ -23,7 +23,7 @@ jobs:
       - name: install packages
         run: |
           install.packages('remotes')          
-          install.packages('tidyverse')
+          install.packages('dplyr')
           install.packages('covid19germany')
         shell: Rscript {0}        
       - name: "Download data"
