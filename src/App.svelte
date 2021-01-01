@@ -16,7 +16,7 @@
 	{#if lineChartData}
 		<div class='chart'>			
 			<LineChartCovid data={lineChartData} />
-			<p>Data source: <a href="https://github.com/nevrome/covid19germany">https://github.com/nevrome/covid19germany</a> (30.12.2020)</p>
+			<p>Data source: <a href="https://github.com/nevrome/covid19germany">https://github.com/nevrome/covid19germany</a></p>
 		</div>
 	{/if}
 	
