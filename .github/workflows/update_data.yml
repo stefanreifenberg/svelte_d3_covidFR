@@ -26,6 +26,7 @@ jobs:
           install.packages('remotes')
           remotes::install_github("nevrome/covid19germany")   
           install.packages('readr')
+          install.packages('curl')
         shell: Rscript {0} 
       - name: Checkout repo
         uses: actions/checkout@v2       
