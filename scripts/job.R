@@ -1,5 +1,6 @@
 #### cov freiburg
-library(tidyverse)
+#library(tidyverse)
+library(dplyr)
 library(covid19germany)
 # load covid data ----
 cov_df <- covid19germany::get_RKI_timeseries()
