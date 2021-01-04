@@ -4943,11 +4943,11 @@ var app = (function () {
     			a = element("a");
     			a.textContent = "https://github.com/nevrome/covid19germany";
     			attr_dev(a, "href", "https://github.com/nevrome/covid19germany");
-    			add_location(a, file$2, 18, 19, 526);
+    			add_location(a, file$2, 18, 19, 532);
     			attr_dev(p, "class", "svelte-64ava6");
-    			add_location(p, file$2, 18, 3, 510);
+    			add_location(p, file$2, 18, 3, 516);
     			attr_dev(div, "class", "chart svelte-64ava6");
-    			add_location(div, file$2, 16, 2, 441);
+    			add_location(div, file$2, 16, 2, 447);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5011,7 +5011,7 @@ var app = (function () {
     			h1.textContent = "Covid-19 development in Freiburg im Breisgau";
     			t1 = space();
     			h2 = element("h2");
-    			t2 = text("Showing confirmed ");
+    			t2 = text("Showing daily confirmed ");
     			span0 = element("span");
     			span0.textContent = "ill";
     			t4 = text(", ");
@@ -5027,15 +5027,15 @@ var app = (function () {
     			attr_dev(h1, "class", "svelte-64ava6");
     			add_location(h1, file$2, 11, 0, 193);
     			set_style(span0, "color", "#6930c3");
-    			add_location(span0, file$2, 12, 22, 269);
+    			add_location(span0, file$2, 12, 28, 275);
     			set_style(span1, "color", "#02c39a");
-    			add_location(span1, file$2, 12, 62, 309);
+    			add_location(span1, file$2, 12, 68, 315);
     			set_style(span2, "color", "#e56b6f");
-    			add_location(span2, file$2, 12, 111, 358);
+    			add_location(span2, file$2, 12, 117, 364);
     			attr_dev(h2, "class", "svelte-64ava6");
     			add_location(h2, file$2, 12, 0, 247);
     			attr_dev(main, "class", "svelte-64ava6");
-    			add_location(main, file$2, 14, 0, 410);
+    			add_location(main, file$2, 14, 0, 416);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

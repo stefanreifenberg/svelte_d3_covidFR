@@ -10,7 +10,7 @@
 </script>
 
 <h1>Covid-19 development in Freiburg im Breisgau</h1>
-<h2>Showing confirmed <span style="color:#6930c3">ill</span>, <span style="color:#02c39a">recovered</span> and <span style="color:#e56b6f">dead</span> cases</h2>
+<h2>Showing daily confirmed <span style="color:#6930c3">ill</span>, <span style="color:#02c39a">recovered</span> and <span style="color:#e56b6f">dead</span> cases</h2>
 
 <main>	
 	{#if lineChartData}
