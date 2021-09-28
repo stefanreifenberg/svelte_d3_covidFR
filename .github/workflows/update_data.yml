@@ -24,7 +24,7 @@ jobs:
         run: |                  
           install.packages('dplyr')
           install.packages('remotes')
-          install_github('nevrome/covid19germany')
+          remotes::install_github('nevrome/covid19germany@HEAD')
           install.packages('readr')
           install.packages('curl')
         shell: Rscript {0} 
