@@ -42,4 +42,4 @@ jobs:
           git commit -am "update data"
           git push 
         env:
-          GITHUB_PAT: ${{ secrets.github_actions }}
+          GITHUB_PAT: ${{ secrets.SUPER_SECRET }}
