@@ -8,10 +8,10 @@
 
 	export let data;	
 
-	const height = 400;
+	const height = 600;
 	const margin = 40;		
 
-	const width = 800;	
+	const width = 1000;	
 
 	$: xScale = scaleTime()
 		.domain(extent(data, d => new Date((d.Date))))
@@ -44,7 +44,10 @@
 	}
 </script>
 
+<style>
+	
 
+</style>
 
 <div class='line-chart'>
 	

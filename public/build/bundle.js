@@ -4682,24 +4682,24 @@ var app = (function () {
     			attr_dev(path0, "stroke-width", path0_stroke_width_value = 2);
     			attr_dev(path0, "stroke-linecap", "round");
     			attr_dev(path0, "fill", "none");
-    			add_location(path0, file$1, 55, 3, 1290);
+    			add_location(path0, file$1, 58, 3, 1310);
     			attr_dev(path1, "d", path1_d_value = /*lineGenerator_recovered*/ ctx[5](/*data*/ ctx[0]));
     			attr_dev(path1, "stroke", "#02c39a");
     			attr_dev(path1, "stroke-width", path1_stroke_width_value = 1.8);
     			attr_dev(path1, "stroke-linecap", "round");
     			attr_dev(path1, "fill", "none");
-    			add_location(path1, file$1, 64, 3, 1459);
+    			add_location(path1, file$1, 67, 3, 1479);
     			attr_dev(path2, "d", path2_d_value = /*lineGenerator_ill*/ ctx[3](/*data*/ ctx[0]));
     			attr_dev(path2, "stroke", "#6930c3");
     			attr_dev(path2, "stroke-width", path2_stroke_width_value = 2);
     			attr_dev(path2, "stroke-linecap", "round");
     			attr_dev(path2, "fill", "none");
-    			add_location(path2, file$1, 73, 3, 1635);
+    			add_location(path2, file$1, 76, 3, 1655);
     			attr_dev(svg, "width", width);
     			attr_dev(svg, "height", height);
-    			add_location(svg, file$1, 50, 2, 1103);
+    			add_location(svg, file$1, 53, 2, 1123);
     			attr_dev(div, "class", "line-chart");
-    			add_location(div, file$1, 48, 0, 1074);
+    			add_location(div, file$1, 51, 0, 1094);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4785,9 +4785,9 @@ var app = (function () {
     	return block;
     }
 
-    const height = 400;
+    const height = 600;
     const margin = 40;
-    const width = 800;
+    const width = 1000;
 
     function instance$1($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
@@ -4923,9 +4923,13 @@ var app = (function () {
     	let div;
     	let linechartcovid;
     	let t0;
-    	let p;
+    	let p0;
     	let t1;
-    	let a;
+    	let a0;
+    	let t3;
+    	let p1;
+    	let t4;
+    	let a1;
     	let current;
 
     	linechartcovid = new LineChartCovid({
@@ -4938,24 +4942,37 @@ var app = (function () {
     			div = element("div");
     			create_component(linechartcovid.$$.fragment);
     			t0 = space();
-    			p = element("p");
-    			t1 = text("Data source: ");
-    			a = element("a");
-    			a.textContent = "https://github.com/nevrome/covid19germany";
-    			attr_dev(a, "href", "https://github.com/nevrome/covid19germany");
-    			add_location(a, file$2, 18, 19, 532);
-    			attr_dev(p, "class", "svelte-64ava6");
-    			add_location(p, file$2, 18, 3, 516);
-    			attr_dev(div, "class", "chart svelte-64ava6");
+    			p0 = element("p");
+    			t1 = text("Author: ");
+    			a0 = element("a");
+    			a0.textContent = "Stefan Reifenberg";
+    			t3 = space();
+    			p1 = element("p");
+    			t4 = text("Data source: ");
+    			a1 = element("a");
+    			a1.textContent = "https://github.com/nevrome/covid19germany";
+    			attr_dev(a0, "href", "https://twitter.com/Reyfenberg");
+    			add_location(a0, file$2, 18, 29, 542);
+    			attr_dev(p0, "class", "author");
+    			add_location(p0, file$2, 18, 3, 516);
+    			attr_dev(a1, "href", "https://github.com/nevrome/covid19germany");
+    			add_location(a1, file$2, 19, 39, 648);
+    			attr_dev(p1, "class", "data_source svelte-ttgpv9");
+    			add_location(p1, file$2, 19, 3, 612);
+    			attr_dev(div, "class", "chart svelte-ttgpv9");
     			add_location(div, file$2, 16, 2, 447);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
     			mount_component(linechartcovid, div, null);
     			append_dev(div, t0);
-    			append_dev(div, p);
-    			append_dev(p, t1);
-    			append_dev(p, a);
+    			append_dev(div, p0);
+    			append_dev(p0, t1);
+    			append_dev(p0, a0);
+    			append_dev(div, t3);
+    			append_dev(div, p1);
+    			append_dev(p1, t4);
+    			append_dev(p1, a1);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
@@ -5024,7 +5041,7 @@ var app = (function () {
     			t9 = space();
     			main = element("main");
     			if (if_block) if_block.c();
-    			attr_dev(h1, "class", "svelte-64ava6");
+    			attr_dev(h1, "class", "svelte-ttgpv9");
     			add_location(h1, file$2, 11, 0, 193);
     			set_style(span0, "color", "#6930c3");
     			add_location(span0, file$2, 12, 28, 275);
@@ -5032,9 +5049,9 @@ var app = (function () {
     			add_location(span1, file$2, 12, 68, 315);
     			set_style(span2, "color", "#e56b6f");
     			add_location(span2, file$2, 12, 117, 364);
-    			attr_dev(h2, "class", "svelte-64ava6");
+    			attr_dev(h2, "class", "svelte-ttgpv9");
     			add_location(h2, file$2, 12, 0, 247);
-    			attr_dev(main, "class", "svelte-64ava6");
+    			attr_dev(main, "class", "svelte-ttgpv9");
     			add_location(main, file$2, 14, 0, 416);
     		},
     		l: function claim(nodes) {

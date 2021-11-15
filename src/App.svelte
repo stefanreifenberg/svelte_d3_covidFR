@@ -16,7 +16,8 @@
 	{#if lineChartData}
 		<div class='chart'>			
 			<LineChartCovid data={lineChartData} />
-			<p>Data source: <a href="https://github.com/nevrome/covid19germany">https://github.com/nevrome/covid19germany</a></p>
+			<p class="author">Author: <a href="https://twitter.com/Reyfenberg">Stefan Reifenberg</a></p>
+			<p class="data_source">Data source: <a href="https://github.com/nevrome/covid19germany">https://github.com/nevrome/covid19germany</a></p>
 		</div>
 	{/if}
 	
@@ -43,24 +44,13 @@
 	}
 
 	.chart {
-		width: 100%;
+		display: flex;
+  		justify-content: center;
 		position: relative;
-		margin-bottom: 1rem;
+		height: 600px;
+		width: 1000px;
 	}
-
-	.chart h3 {
-		position: absolute;
-		width: 100%;
-		top: 0;
-		left: 50%;
-		transform: translateX(-50%);
-		margin: 0;
-		font-size: 1.1rem;
-		text-align: center;
-		z-index: 42;
-	}
-
-	.chart p {
+	.data_source {
 		position: absolute;
 		width: 100%;
 		bottom: 0;
