@@ -52,13 +52,24 @@
 	}
 	.data_source {
 		position: absolute;
-		width: 100%;
+		
 		bottom: 0;
 		right: 0;
 		margin: 0;
 		font-size: 0.9rem;
-		font-style: italic;
+		
 		text-align: right;
-		z-index: 42;
+		
+	}
+	.author {
+		position: absolute;
+		
+		bottom: 0;
+		left: 0;
+		margin: 0;
+		font-size: 0.9rem;
+	
+		text-align: right;
+	
 	}
 </style>

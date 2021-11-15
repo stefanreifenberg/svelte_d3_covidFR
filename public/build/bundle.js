@@ -4953,13 +4953,13 @@ var app = (function () {
     			a1.textContent = "https://github.com/nevrome/covid19germany";
     			attr_dev(a0, "href", "https://twitter.com/Reyfenberg");
     			add_location(a0, file$2, 18, 29, 542);
-    			attr_dev(p0, "class", "author");
+    			attr_dev(p0, "class", "author svelte-1lcq82a");
     			add_location(p0, file$2, 18, 3, 516);
     			attr_dev(a1, "href", "https://github.com/nevrome/covid19germany");
     			add_location(a1, file$2, 19, 39, 648);
-    			attr_dev(p1, "class", "data_source svelte-ttgpv9");
+    			attr_dev(p1, "class", "data_source svelte-1lcq82a");
     			add_location(p1, file$2, 19, 3, 612);
-    			attr_dev(div, "class", "chart svelte-ttgpv9");
+    			attr_dev(div, "class", "chart svelte-1lcq82a");
     			add_location(div, file$2, 16, 2, 447);
     		},
     		m: function mount(target, anchor) {
@@ -5041,7 +5041,7 @@ var app = (function () {
     			t9 = space();
     			main = element("main");
     			if (if_block) if_block.c();
-    			attr_dev(h1, "class", "svelte-ttgpv9");
+    			attr_dev(h1, "class", "svelte-1lcq82a");
     			add_location(h1, file$2, 11, 0, 193);
     			set_style(span0, "color", "#6930c3");
     			add_location(span0, file$2, 12, 28, 275);
@@ -5049,9 +5049,9 @@ var app = (function () {
     			add_location(span1, file$2, 12, 68, 315);
     			set_style(span2, "color", "#e56b6f");
     			add_location(span2, file$2, 12, 117, 364);
-    			attr_dev(h2, "class", "svelte-ttgpv9");
+    			attr_dev(h2, "class", "svelte-1lcq82a");
     			add_location(h2, file$2, 12, 0, 247);
-    			attr_dev(main, "class", "svelte-ttgpv9");
+    			attr_dev(main, "class", "svelte-1lcq82a");
     			add_location(main, file$2, 14, 0, 416);
     		},
     		l: function claim(nodes) {
