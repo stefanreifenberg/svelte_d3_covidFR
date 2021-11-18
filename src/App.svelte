@@ -52,7 +52,6 @@
 	}
 	.data_source {
 		position: absolute;
-		
 		bottom: 0;
 		right: 0;
 		margin: 0;
@@ -63,13 +62,10 @@
 	}
 	.author {
 		position: absolute;
-		
 		bottom: 0;
 		left: 0;
 		margin: 0;
 		font-size: 0.9rem;
-	
 		text-align: right;
-	
 	}
 </style>
