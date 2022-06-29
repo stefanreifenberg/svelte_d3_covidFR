@@ -17,4 +17,4 @@ fr_daily <- fr %>%
             daily_sum_recovered = sum(NumberNewRecovered))
 
 # write to file ----
-write_csv(fr_daily, "public/fr_daily.csv", col_names = T)
+write_csv(fr_daily, "../public/fr_daily.csv", col_names = T)
